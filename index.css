@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    background-color: #111827;
+}
+
+/* .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.scoreFrame{
+    background: #080001;
+    width: 155px;
+    height: 120px;
+} */
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container__box-title {
+    font-size: 36px;
+    font-weight: 500;
+    font-family: Verdana;
+    color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+}
+
+.container__box-score {
+    background: #080001;
+    width: 155px;
+    height: 120px;
+    color: #9AABD8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    font-family: Cursed Timer ULiL;
+}
+
+.container__box-actions {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #9AABD8;    
+}
+
+.container__box-actions div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid #9AABD8;
+    font-family: Cursed Timer ULiL;
+    height: 45px;
+    width: 45px;
+}
+
+.container__resetScore {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 100px;
+    height: 30px;
+    border: 2px solid #9AABD8;
+    align-items: center;
+    color: #9AABD8;
+    font-family: Cursed Timer ULiL;
+}
